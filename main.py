@@ -8,19 +8,11 @@ from vartests import RosenbaumQ, SignG, MannWhitneyU, WilcoxonU, FisherF
 print("\n\n")
 
 
-
-
-
-
-
-
 x_num, y_num = loader.load_default_xlsx()
 
 q = Bivariate(x_num, y_num)
 
 print(q)
-
-
 
 
 print("\n\n")
